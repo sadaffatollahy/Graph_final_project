@@ -37,3 +37,26 @@ barrier permeability. This dataset records whether a compound is permeable to th
 This dataset contains 2000 graphs or molecules with 127 vertex features, 12 edge features, and 200 molecular features, each of which is explained below.
 
 ![4](https://github.com/sadaffatollahy/Graph_final_project/assets/123890119/7e54538c-f42e-4100-810f-301f74567e2a)
+
+In this GNN we use of cross entropy as loss function and ROC-AUC as metric , and final resaults are in below:
+
+![6](https://github.com/sadaffatollahy/Graph_final_project/assets/123890119/c3bca6d2-fca4-491a-aa61-73121df5c72f)
+
+
+Graph Regression:
+
+Graph regression is a type of machine learning technique that involves predicting a continuous output variable from a graph-structured input. In graph regression, the input data is represented as a graph, where the nodes represent entities and the edges represent the relationships between those entities. The goal of graph regression is to learn a mapping between the input graph and a continuous output variable, such as a numeric value or a vector.
+
+Graph regression can be used in a variety of applications, such as drug discovery, materials science, and protein structure prediction. In drug discovery, for example, graph regression can be used to predict the binding affinity of a candidate drug molecule to a target protein, given a graph representation of the molecule and the protein.
+
+Graph regression models can be constructed using a variety of machine learning techniques, such as graph neural networks (GNNs), kernel methods, and decision trees. GNNs are a popular choice for graph regression because they are designed to operate on graph-structured data and can learn hierarchical representations of the input graph. GNNs can be trained using various loss functions, such as mean squared error (MSE) or mean absolute error (MAE), and can be optimized using standard backpropagation techniques.
+
+Dataset:
+
+The dataset for this task is ESOL.
+ ESOL is a small dataset consisting of water solubility data for some compounds.
+Like the previous dataset this dataset contains 2000 graphs or molecules with 127 vertex features, 12 edge features, and 200 molecular features.
+
+In this GNN we use of MSE as loss function and RMSE as metric , and final resaults are in below:
+
+![7](https://github.com/sadaffatollahy/Graph_final_project/assets/123890119/f95c0329-98c2-4e9c-8119-9e2bcf479ada)
