@@ -14,7 +14,7 @@ In the context of molecular graphs, a graph is typically represented as a set of
 
 In this project we have 2 dataset ,one of them is for classification task and the other is for regression task.first we need to know what they are!
 
-Graph Classification
+Graph Classification:
 
 Graph classification is a type of machine learning task in which a model is trained to classify graphs based on their structural properties. Unlike traditional machine learning tasks that operate on fixed-dimensional data, such as images or text, graph classification involves working with data that is represented as a graph, which is a collection of nodes (vertices) and edges that connect the nodes.
 
@@ -22,7 +22,8 @@ In graph classification, each graph is typically represented as an adjacency mat
 
 Graph classification has a wide range of applications, including chemical compound classification, protein function prediction, social network analysis, and citation network analysis, among others. It is a challenging task due to the complexity of graph data and the difficulty in extracting meaningful features from the graph structure. However, recent advances in deep learning and graph neural networks have led to significant improvements in graph classification performance, making it an active area of research in machine learning and artificial intelligence.
 
-\section{Chemical compound classification}
+Chemical compound classification:
+
 Chemical compound classification is an important application of graph classification in which machine learning models are trained to predict the properties of chemical compounds based on their molecular structure. In this context, each chemical compound is represented as a graph, where the nodes represent atoms and the edges represent chemical bonds between the atoms.
 
 The molecular structure of a chemical compound can have a significant impact on its physical and chemical properties, such as solubility, reactivity, and toxicity. By training a machine learning model to classify chemical compounds based on their molecular structure, it is possible to predict their properties and identify compounds with desirable characteristics for specific applications, such as drug discovery or materials science.
@@ -31,17 +32,19 @@ Graph neural networks (GNNs) have proven to be a powerful tool for chemical comp
 
 
 Dataset:
+
 The dataset for this task is BBBP.
 BBBP (Blood–brain barrier penetration) dataset  comes from a recent study on the modeling and prediction of
 barrier permeability. This dataset records whether a compound is permeable to the blood-brain barrier.
-This dataset contains 2000 graphs or molecules with 127 vertex features, 12 edge features, and 200 molecular features, each of which is explained below.
+This dataset contains 2000 graphs or molecules with 127 vertex features, 12 edge features, and 200 molecular features , each of which is explained below.
 
 ![4](https://github.com/sadaffatollahy/Graph_final_project/assets/123890119/7e54538c-f42e-4100-810f-301f74567e2a)
 
-In this GNN we use of cross entropy as loss function and ROC-AUC as metric , and final resaults are in below:
+In this GNN we use of cross entropy as loss function and ROC-AUC as metric and node features and edge features . finally resaults are in below:
 
-![6](https://github.com/sadaffatollahy/Graph_final_project/assets/123890119/c3bca6d2-fca4-491a-aa61-73121df5c72f)
+![8](https://github.com/sadaffatollahy/Graph_final_project/assets/123890119/4133d113-0ba0-4c93-b955-abc8aaf05447)
 
+ As you can see my best result is Model 5.
 
 Graph Regression:
 
@@ -57,6 +60,8 @@ The dataset for this task is ESOL.
  ESOL is a small dataset consisting of water solubility data for some compounds.
 Like the previous dataset this dataset contains 2000 graphs or molecules with 127 vertex features, 12 edge features, and 200 molecular features.
 
-In this GNN we use of MSE as loss function and RMSE as metric , and final resaults are in below:
+In this GNN we use of MSE as loss function and RMSE as metric and node features and edge features . finally resaults are in below:
 
-![7](https://github.com/sadaffatollahy/Graph_final_project/assets/123890119/f95c0329-98c2-4e9c-8119-9e2bcf479ada)
+![9](https://github.com/sadaffatollahy/Graph_final_project/assets/123890119/0fc0d7ac-3078-4757-ba43-5d8d707f952e)
+
+ As you can see my best result is Model 4.
